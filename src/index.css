@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.custom-gradient-heading {
+  background-image: linear-gradient(to right, #FF7262 0%, #FFD748 30%, #8B16FF 70%);
+}
+
+.custom-gradient {
+  background-image: linear-gradient(to right, #FF7262 0%, #FFD748 40%, #8B16FF 83%);
+}
+
+.transparent-48 {
+  background: rgba(255, 255, 255, 0.48); /* شفافیت 48% */
+}
