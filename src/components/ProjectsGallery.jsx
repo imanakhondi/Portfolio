@@ -7,6 +7,7 @@ const projects = [
   {
     imageUrl: "images/sport-taybad.png",
     href: "https://sport-taybad.vercel.app/",
+    zIndex: "z-40",
   },
   {
     imageUrl: "images/rick-and-morty.png",

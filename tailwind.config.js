@@ -32,6 +32,9 @@ export default {
     },
   },
   safelist: [
+    "bg-onyx-black",
+    "bg-dark-night",
+    "bg-emerald-shadow",
     "bg-onyx-black-gradient",
     "bg-dark-night-gradient",
     "bg-emerald-shadow-gradient",
