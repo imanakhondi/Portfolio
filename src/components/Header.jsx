@@ -19,17 +19,17 @@ function Header({ navbar, activeLink, handleSetActive }) {
   const themeButtons = ["onyx-black", "dark-night", "emerald-shadow"];
   const languageButtons = [
     {
-      src: "../../public/images/england-flag-jpg-xl.jpg",
+      src: "images/england-flag-jpg-xl.jpg",
       alt: "English",
       onClick: () => changeLanguage("en"),
     },
     {
-      src: "../../public/images/iran-flag-png-large.png",
+      src: "images/iran-flag-png-large.png",
       alt: "Farsi",
       onClick: () => changeLanguage("fa"),
     },
     {
-      src: "../../public/images/germany-flag-png-large.png",
+      src: "images/germany-flag-png-large.png",
       alt: "German",
       onClick: () => changeLanguage("de"),
     },
