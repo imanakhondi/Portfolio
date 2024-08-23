@@ -67,7 +67,7 @@ function ProfileImage() {
   return (
     <div className="w-full bg-userImage bg-center	bg-cover p-5 md:p-10	flex justify-center">
       <img
-        src="../../public/images/ImanAkhondi.png"
+        src="images/ImanAkhondi.png"
         alt=""
         className="max-w-80 rounded-full self-center"
       />
