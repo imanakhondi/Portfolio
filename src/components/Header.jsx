@@ -37,7 +37,7 @@ function Header({ navbar, activeLink, handleSetActive }) {
 
   return (
     <div
-      className={`fixed z-50 w-full p-4 md:p-6 text-white flex justify-between items-center opacity-80 ${
+      className={`fixed xl:max-w-[1920px] z-50 w-full p-4 md:p-6 text-white flex justify-between items-center opacity-80 ${
         navbar ? `bg-${theme}-gradient` : ""
       }`}
     >
